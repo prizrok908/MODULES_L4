@@ -1,0 +1,21 @@
+{
+  "name": "t319",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env MODE=production node src/index.js",
+    "start": "cross-env MODE=development node src/index.js",
+    "deploy": "cross-env MODE=domain node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.7"
+  }
+}
